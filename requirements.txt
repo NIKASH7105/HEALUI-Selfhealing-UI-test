@@ -1,0 +1,4 @@
+playwright
+faiss-cpu
+numpy
+requests

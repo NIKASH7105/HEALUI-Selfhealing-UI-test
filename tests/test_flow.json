@@ -1,0 +1,31 @@
+{
+  "base_path": "path/to/your/project",
+  "test_steps": [
+    {
+      "action": "goto",
+      "target": "http://example.com"
+    },
+    {
+      "action": "click",
+      "query": "button#submit",
+      "fallback": "button[type='submit']"
+    },
+    {
+      "action": "fill",
+      "query": "input#username",
+      "value": "testuser",
+      "fallback": "input[name='username']"
+    },
+    {
+      "action": "fill",
+      "query": "input#password",
+      "value": "password123",
+      "fallback": "input[name='password']"
+    },
+    {
+      "action": "click",
+      "query": "button#login",
+      "fallback": "button[type='submit']"
+    }
+  ]
+}
